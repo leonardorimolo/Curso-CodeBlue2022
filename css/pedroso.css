@@ -1,0 +1,153 @@
+/* RESET */
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+em,
+img,
+strong,
+u,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+article,
+aside, 
+figure,
+figcaption,
+footer,
+header,
+nav,
+section,
+time,
+audio,
+video{
+  border:0;
+  font-size:100%;
+  font:inherit;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+}
+
+.header{
+    width: 620px;
+    margin: 70px auto;
+}
+.header h2{
+    font: 20px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+.menu{
+    width: 1101px;
+    height: 74px;
+    margin: 0 auto;
+    overflow: auto;
+}
+#box-home, #box-galeria, #box-produtos, #box-contato{
+    width: 270px;
+    height: 40px;
+    float: left;
+    background: red;
+    margin-right: 5px;
+   
+}
+#box-home, #box-galeria, #box-produtos, #box-contato{
+text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    font: 25px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+li{
+    list-style: none;
+    text-align: center;
+}
+
+.content{
+    width: 1101px;
+    height: 227px;
+    margin: 0 auto;
+    overflow: auto;
+
+}
+.content div{
+    width: 340px;
+    float: left;
+    border: solid 1px black;
+    margin-left: 20px;
+}
+
+.content h2{
+    width: 275px;
+    font: 25px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 5px;
+    border-bottom: solid 2px black;
+    margin-left: 15px;
+}
+.content p{
+    font: 16px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+.leia a{
+    font: 16px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    text-decoration: none;
+}
+.leia{
+    text-align: right;
+}
+
+.footer{
+    width: 1010px;
+    margin: 70px auto;
+    padding: 50px;
+    font: 16px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-align: center;
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+    

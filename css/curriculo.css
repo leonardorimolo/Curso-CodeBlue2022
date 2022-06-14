@@ -1,0 +1,50 @@
+
+body{
+    background-color:#2d2e2c
+}
+h1{
+    color:#1c5560;
+    font: bold  40px 'Roboto Mono', monospace;
+    text-align: center;
+    }
+   
+.centralizados{
+    color: #79ae92;
+    font:  30px 'Roboto Mono', monospace;
+    text-align: center;
+}
+.naocentralizados{
+    color: #79ae92;
+    font:  30px 'Roboto Mono', monospace;
+}
+
+h3{
+    color: #79ae92;
+    font:  22px 'Roboto Mono', monospace;
+}
+
+h4{
+    color: #79ae92;
+    font:  30px 'Roboto Mono', monospace;
+}
+
+li{
+    color: #fbffcd;
+    font: italic 20px 'Roboto Mono', monospace;
+}
+p{
+    color: #fbffcd;
+    font: 18px 'Roboto Mono', monospace;
+   text-align: left;
+}
+
+#copy{
+    color: #fbffcd;
+    font: 18px 'Roboto Mono', monospace;
+    text-align: center;
+}
+#ancoras{
+    color: #fbffcd;
+    font: 20px 'Roboto Mono', monospace;
+    text-align: center;
+}

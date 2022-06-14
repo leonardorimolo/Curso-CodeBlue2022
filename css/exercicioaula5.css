@@ -1,0 +1,44 @@
+.tituloprincipal{
+    font: bold 40px small-caps Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.titulosecundario{
+    font: bold 30px Georgia, 'Times New Roman', Times, serif;
+    color: #4c1b05;
+    text-align: center;
+    text-transform: uppercase;    
+}
+span{
+    color: #f2bd76;
+}
+
+figure{
+    text-align: center;
+}
+h2{
+    font: bold 27px Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #4c1b05;
+    text-transform: uppercase;
+
+    
+}
+
+li{
+    font:23px small-caps Georgia, 'Times New Roman', Times, serif;
+    list-style: disc;
+    list-style-position: inside;
+    text-align: justify;   
+}
+h5{
+    font:23px Georgia, 'Times New Roman', Times, serif;
+    color: #4c1b05;
+}
+p{
+    font: 16px Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+

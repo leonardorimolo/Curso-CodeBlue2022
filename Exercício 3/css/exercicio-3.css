@@ -1,0 +1,163 @@
+/* RESET */
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+em,
+img,
+strong,
+u,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+article,
+aside, 
+figure,
+figcaption,
+footer,
+header,
+nav,
+section,
+time,
+audio,
+video{
+  border:0;
+  font-size:100%;
+  font:inherit;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+}
+html{scroll-behavior:smooth;}
+body{
+  background:#fff;
+  color:#000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+  line-height:1;
+}
+ol, 
+ul,
+li{list-style:none;}
+strong{font-weight: bold;}
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+  width:100%;
+}
+a,
+a:hover{
+  color:#000;
+  text-decoration:none;
+  cursor:pointer;
+}
+:focus{outline:0;}
+
+
+/* DESKTOP */
+
+header img{
+    width: 100%;
+}
+
+.first-content{
+    width: 1000px;
+    height: 400px;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+figure img{
+    width: 115%;
+}
+.img-content{
+    width: 300px;
+}
+.text-content{
+    width: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-content h1{
+    font-size: 50px;
+    padding-top: 30px;
+    color: #900;
+}
+.text-content p{
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+.second-content{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.second-content h2{
+    padding-left: 30px;
+    color: #900;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+.second-content p{
+    padding: 40px 30px;
+    width: 700px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* MOBILE */
+
+@media screen and ( max-width:760px){
+    .img-content{
+        width: 0;
+    }
+    .first-content{
+        width: 100%;
+        margin: 30px auto;
+    }
+    .text-content{
+        width: 100%;
+        margin: 0 30px;
+    }
+    .text-content h1{
+        font-size: 35px;
+
+    }
+    .second-content{
+        width: 100%;
+
+        
+    }
+    .second-content p{
+        width: 85%;
+        padding: 30px 30px;
+    }
+    .second-content h2{
+        font-size: 30px;
+        padding: 30px;
+    }
+}

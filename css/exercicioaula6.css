@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style:none;
+}
+
+
+body{
+    background-color: greenyellow
+
+}
+
+
+
+
+h1 {
+    font: 60px 'Titan One', cursive;
+    text-align: center;
+}
+h2{
+    font: 40px 'Titan One', cursive;
+    text-align: center;
+}
+
+li{
+    font: 30px 'Titan One', cursive;
+    text-align: center;
+    list-style: none; 
+}
+
+a{
+    color: forestgreen
+
+}
+
+
+
+

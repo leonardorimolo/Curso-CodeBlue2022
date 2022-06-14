@@ -1,0 +1,43 @@
+/* 
+    MINI AULA DE BYTE
+    BIT = 0 - 1
+    BYTE = 01001110
+    256 COMBINAÇÕES POSSÍVEIS DESDE 00000000 ATÉ O 11111111
+
+
+    MINI AULA DE PIXEL
+    1 PIXEL = RGB
+    256 RED ; 256 GREEN ; 256 BLUE
+    256 AO CUBO = 16.777.216 DE CORES
+
+    MINI AULA DE CORES
+    NO CSS EXISTEM 4 FORMAS DE ESCOLHER A COR DE ALGO:
+    - O NOME DA COR EM INGLÊS
+    - RGB(R,G,B) VARIANDO ZERO A 255
+    - RGB (R,G,B,ALFA) ONDE ALFA VARIA ENTRE 0 E 1
+    - HEXADECIMAL
+
+
+
+
+*/
+
+
+h1{
+
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 20 px;  /* NO CSS SEMPRE QUE HOUVER UM VALOR NUMÉRICO EU TENHO QUE DEFINIR A UNIDADE DE MEDIDA */
+      font-weight: normal; /* NEGRITO. NORMAL TIRA O NEGRITO */
+      font-style: italic; /* ITÁLICO */
+      font-variant: small-caps; /* VERSALETE. SUPER POUCO USADO */
+}
+
+h2{ 
+    font: normal italic  30px/50px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    /* REGRAS PARA QUE OO AGRUPAMENTO DA PROPRIEDADE FONT FUNCIONEE: 1 - TEM QUE ESTAR NA ORDEM CERTA (ESTILOS) (TAMANHO) (FONTE) 2- TAMANHO DA LETRA E TIPO DA LETRA É OBRIGATÓRIO. SE QUISER POSSO AGRUPAR LINE-HEIGHT JUNTO COM O TAMANHO DE LETRA, SEPARADO POR BARRA. */
+    /* line-height:50px ;  ESPAÇAMENTO ENTRE LINHAS */
+    text-align: center; /* ALINHAMENTO DE TEXTO */
+    text-decoration:line-through; /* SUBLINHADO OU TAXADO */
+    text-transform: uppercase; /* MUDA A CAIXA DO TEXTO */
+}

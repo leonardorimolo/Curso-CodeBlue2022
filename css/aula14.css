@@ -1,0 +1,32 @@
+/* O CSS DO DESKTOP A GENTE FAZ NORMAL NO INICIO DO DOCUMENTO */
+body{
+    background: #009;
+    font-size: 14px;
+}
+div{
+    font-size: 20px;
+}
+p{
+    font-size: 1.5em;
+}
+
+/* AS MEDIAS QUERIES COLOCAMOS NO FINAL DO DOCUMENTO */
+
+/* TABLET */
+@media screen and (min-width:601px)
+and (max-width:1024px){
+    body{
+        background: #090;
+    }
+        
+}
+
+/* CELULAR */
+@media screen and (max-width:600px){
+    body{
+        background: #900;
+    }
+}
+
+
+
